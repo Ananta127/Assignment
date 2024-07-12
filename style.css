@@ -246,12 +246,68 @@ monospace;
 }
 
 #frame-19 {
-    border: 2px solid;
-    width: 1517px;
-    height: 1035px;
+    width: 1300px;
+    height: 556px;
     margin: 0 auto;
     margin-top: 100px;
     padding: 0px;
 }
 
-#frame-19 .
+#frame-19 .head {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#frame-19 .subtitle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#frame-19 .collumn-card {
+    width: 500px;
+    height: 250px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-top: 50px;
+    padding: 40px;
+}
+
+#frame-19 .h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#frame-19 .sub2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+
+#frame-19 .cards{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+    
