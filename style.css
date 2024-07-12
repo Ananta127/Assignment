@@ -8,6 +8,44 @@ monospace;
     padding: 0;
 }
 
+#header .head {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#header .btn {
+    width: 228px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+#header .btnfont {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#header .add-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 300px;
+}
+
 #hero {
     height: 867px;
     background-image: url(assets/Hero-bg.png);
@@ -19,7 +57,7 @@ monospace;
 }
 
 #hero .hero-content {
-    width: 748.5px;
+    width: 1000px;
 }
 
 #hero .hero-content .image {
@@ -39,9 +77,9 @@ monospace;
 #hero .hero-content .subtitle {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 17px;
+    line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
@@ -59,7 +97,12 @@ monospace;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 425;
+    cursor: pointer;
+}
 
+#hero .a-text{
+    color: white;
+    text-decoration: none;
 }
 
 #why-web-dev {
@@ -121,6 +164,7 @@ monospace;
     line-height: 40px;
     letter-spacing: 0%;
     text-align: center;
+    opacity: 0.7;
 }
 
 #why-web-dev .row-card .box {
@@ -366,7 +410,7 @@ monospace;
 
 .btnsize {
     width: 120px;
-    height:60px;
+    height: 60px;
     border-radius: 8px;
 
     background: rgb(255, 255, 255);
@@ -382,9 +426,47 @@ monospace;
     letter-spacing: 0%;
     text-align: center;
 }
-.btnframe{
+
+.btnframe {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
+}
+
+#foot {
+    margin: auto;
+    margin-top: 60px;
+    /* width: 1440px; */
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.frame-24 {
+
+    margin: auto;
+    height: 36px;
+    width: 1140px;
+    padding: 40px;
+}
+
+#foot .gap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#foot .subtitle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btnmouse{
+    cursor: pointer;
 }
